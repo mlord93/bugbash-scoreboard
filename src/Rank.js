@@ -42,6 +42,7 @@ class Rank extends React.Component {
         }
         return (
             <div>
+                <div>Issues:</div>
                 {issueList}
             </div>
         );
