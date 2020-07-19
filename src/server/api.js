@@ -1,10 +1,7 @@
 import express from 'express';
 import db from './db.js';
-import dotenv from 'dotenv';
 
 const port = process.env.PORT || 3001;
-
-dotenv.config();
 const app = express();
 
 app.get('/board/:boardId', async(req, res) => {
