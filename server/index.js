@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import db from './db.js';
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.static(path.resolve(path.dirname(''), './client/build')));
