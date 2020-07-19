@@ -1,7 +1,7 @@
 import express from 'express';
 import db from './db.js';
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8080;
 const app = express();
 
 app.get('/board/:boardId', async(req, res) => {
