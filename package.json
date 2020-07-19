@@ -19,7 +19,7 @@
     "start": "react-scripts start && node src/server/api.js",
     "client": "react-scripts start",
     "server": "node src/server/api.js",
-    "build": "react-scripts build && node src/server/api.js",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
